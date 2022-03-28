@@ -30,7 +30,12 @@ function Portfolio() {
      }
 
      const popupboxConfigMern ={
-
+        titleBar: {
+            enable: true,
+            text: 'Mern clone project'
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
      }
 
      const openPopupboxNosql = () => {
@@ -51,7 +56,12 @@ function Portfolio() {
      }
 
      const popupboxConfigNosql ={
-
+        titleBar: {
+            enable: true,
+            text: 'Nosql clone project'
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
      }
 
      const openPopupboxPortfolio = () => {
@@ -72,7 +82,12 @@ function Portfolio() {
      }
 
      const popupboxConfigPortfolio ={
-
+        titleBar: {
+            enable: true,
+            text: 'portfolio clone project'
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
      }
 
      const openPopupboxReact = () => {
@@ -93,11 +108,16 @@ function Portfolio() {
      }
 
      const popupboxConfigReact ={
-
+        titleBar: {
+            enable: true,
+            text: 'react clone project'
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
      }
 
     return (
-        <div className="portfolio-wrapper">
+        <div id="portfolio" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">portfolio</h1>
                 <div className="image-box-wrapper column justify-content-center">

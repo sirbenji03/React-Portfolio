@@ -457,3 +457,26 @@ nav ul li {
   width: 100%;
   background:none;
 }
+
+
+/**************************************************************** footer */
+.footer {
+  background-color: var(--primary-black);
+  color: var(--primary-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey)
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
+}
